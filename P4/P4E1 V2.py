@@ -1,0 +1,7 @@
+A=float(input("Dime el primer numero para comparar:"))
+B=float(input("Dime el segundo numero:"))
+C=float(input("Dime el tercer numero"))
+D=float(input("Dime el cuarto numero"))
+E=float(input("Dime el quinto numero"))
+print("El numero maximo es %d" %(max([A, B, C, D, E])))
+print("El numero minimo es %d" %(min([A, B, C, D, E])))
